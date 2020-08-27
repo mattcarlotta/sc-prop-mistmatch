@@ -7,7 +7,7 @@ const Headline = compose.h1(setDisplayName("Headline"))`
   letter-spacing: 1.5px;
   outline: none;
   cursor: pointer;
-  color: #03a9f3;
+  color: ${({ color }) => color || "#03a9f3"};
 
   &:hover {
     color: #f1f1f1;

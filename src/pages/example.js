@@ -7,6 +7,9 @@ export default function Example() {
       <Headline>Composed from package</Headline>
       <br />
       <br />
+      <Headline color="pink">Composed from package</Headline>
+      <br />
+      <br />
       <Link href="/">
         <a>Go home</a>
       </Link>
